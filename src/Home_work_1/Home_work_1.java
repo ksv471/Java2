@@ -21,7 +21,7 @@ public class Home_work_1 {
     //Игра в кальмара
     public static void squidgame(Gang[] gang, Treadmill treadmill, Wall wall) {
         int Stage;
-        for ( Stage = 1; Stage <= 7; Stage++) {
+        for (Stage = 1; Stage <= 7; Stage++) {
             treadmill.setRunnig(treadmill.getRunnig()*Stage);
             wall.setHeight(wall.getHeight()*Stage);
             for (int i = 0; i < 7; i++) {
