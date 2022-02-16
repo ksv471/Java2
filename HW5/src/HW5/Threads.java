@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 public class Threads {
     private static final int size = 10000000; //размер длинного массива
-    private static final int n = 2; // число потоков
+    private static final int n = 3; // число потоков
     private static final int h = size / n; //размер разделенных массивов
     private static final float[] arr = new float[size]; //одномерный длинный массив
 
